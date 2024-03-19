@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
-    <link rel="stylesheet" href="converter.css" />
-    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="/pwapp/converter.css" />
+    <link rel="manifest" href="/pwapp/manifest.json" />
     <title>Temperature converter</title>
   </head>
   <body>
@@ -35,7 +35,7 @@
   </body>
   <script>
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js", { scope: "/pwapp/" });
+      navigator.serviceWorker.register("/pwapp/sw.js", { scope: "/pwapp/" });
     }
   </script>
 </html>
