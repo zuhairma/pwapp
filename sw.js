@@ -1,4 +1,9 @@
 const CACHE_NAME = `temperature-converter-v1`;
+// To display an empty badge
+navigator.setAppBadge();
+
+// To display a number in the badge
+navigator.setAppBadge(42);
 
 // Use the install event to pre-cache all initial resources.
 self.addEventListener('install', event => {
